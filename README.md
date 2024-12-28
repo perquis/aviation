@@ -2,6 +2,8 @@
 
 This repository contains a comprehensive project focused **on regression analysis of aviation and passenger data**. The goal is to explore, preprocess, and model datasets derived from flight logs and passenger records, enabling valuable insights and predictions.
 
+![](https://scikit-learn.org/stable/_images/sphx_glr_plot_ols_001.png)
+
 ## 📖 Project Overview
 
 The project includes the following stages:
