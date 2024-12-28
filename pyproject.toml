@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "machine-learning-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.6.0"
+scipy = "^1.14.1"
+matplotlib = "^3.10.0"
+ipython = "^8.31.0"
+notebook = "^7.3.2"
+pandas = "^2.2.3"
+numpy = "^2.2.1"
+pre-commit = "^4.0.1"
+pylint = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
